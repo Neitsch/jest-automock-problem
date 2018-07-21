@@ -16,6 +16,9 @@
       "core-js",
       "es-abstract",
       "util.promisify"
-    ]
+    ],
+    "moduleNameMapper": {
+      "sshpk": "./sshpk.mock.js"
+    }
   }
 }
